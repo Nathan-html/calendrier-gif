@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+nav {
+  --nav-height: 64px;
+  --nav-margin: 10vw;
+  height: var(--nav-height);
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+nav > *:first-child {
+  padding-left: var(--nav-margin);
+}
+nav > *:last-child {
+  padding-right: var(--nav-margin);
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-left: 8px;
+  padding-right: 8px;
+  list-style: none;
+}
+nav li > *:first-child {
+  padding-left: 0;
+}
+nav li > *:last-child {
+  padding-right: 0;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --gutter-x: 1.5rem;
+  --gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--gutter-x) * 0.5);
+  padding-left: calc(var(--gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+/**
+ * Rows
+ */
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+/**
+ * Columns
+ */
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+button {
+  background: transparent;
+  height: 32px;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-top: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 300px;
+}
+form label {
+  bottom: -14px;
+  left: 12px;
+  position: relative;
+  background-color: white;
+  padding: 0 6px 0 6px;
+  font-size: 16px;
+  transition: 0.2s;
+  pointer-events: none;
+}
+form input, form select {
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 42px;
+  width: 100%;
+  box-sizing: border-box;
+}
+form div:focus ~ label {
+  bottom: 55px;
+}
+form div:valid ~ label {
+  bottom: 55px;
+}
+form .info {
+  max-width: 300px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  --footer-height: 64px;
+  --footer-margin: 16vw;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--footer-height);
+  width: 100%;
+  background-color: #f6f6f6;
+}
+footer *:first-child {
+  padding-left: var(--footer-margin);
+}
+footer *:last-child {
+  padding-right: var(--footer-margin);
+}
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-card {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.calendar-card p {
+  margin: 0px;
+}
+.calendar-card .img-label {
+  position: relative;
+  bottom: -64px;
+  padding: 8px;
+  background-color: white;
+  width: fit-content;
+}
+.calendar-card .img-link {
+  position: relative;
+  text-align: center;
+  padding: 8px;
+  background-color: white;
+  width: fit-content;
+}
+.calendar-card .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -150px;
+}
+.calendar-card .card-info {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.calendar-card ul {
+  padding: 0;
+}
+.calendar-card li {
+  list-style: none;
+}
+
+.pageable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.pageable p {
+  width: 100px;
+}
+
+.emotions-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emotions-list h1 a {
+  text-decoration: none;
+}
+.emotions-list li {
+  font-size: larger;
+}
+.emotions-list ul {
+  padding: 0;
+  list-style: none;
+}
+.emotions-list p {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar .list-card {
+  display: grid;
+}
+@media screen and (max-width: 800px) {
+  .calendar .list-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .calendar .list-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1600px) {
+  .calendar .list-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .calendar .list-card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.calendar .calendar-card {
+  margin: 16px;
+}
+.calendar .img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

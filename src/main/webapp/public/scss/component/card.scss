@@ -1,0 +1,52 @@
+.list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-card {
+
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  p {
+    margin: 0px;
+  }
+
+  .img-label {
+    position: relative;
+    bottom: -64px;
+    padding: 8px;
+    background-color: white;
+    width: fit-content;
+  }
+
+  .img-link {
+    position: relative;
+    text-align: center;
+    padding: 8px;
+    background-color: white;
+    width: fit-content;
+  }
+
+  .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -150px;
+  }
+
+  .card-info {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+}

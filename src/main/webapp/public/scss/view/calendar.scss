@@ -1,0 +1,65 @@
+$breakpoints: (
+    mobile: 800px,
+    computer: 1100px,
+    computer-with-big-screen: 1600px
+);
+
+@mixin mobile {
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;
+    }
+}
+
+@mixin tablet {
+  @media screen and (min-width: map-get($breakpoints, mobile)) and (max-width: map-get($breakpoints, computer)) {
+    @content;
+  }
+}
+
+@mixin computer {
+  @media screen
+    and (min-width: map-get($breakpoints, computer))
+    and (max-width: map-get($breakpoints, computer-with-big-screen)) {
+    @content;
+  }
+}
+
+@mixin computer-with-big-screen {
+  @media screen and (min-width: map-get($breakpoints, computer-with-big-screen)) {
+    @content;
+  }
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .list-card {
+      display: grid;
+      @include mobile {
+          grid-template-columns: repeat(1, 1fr);
+      }
+      @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include computer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @include computer-with-big-screen {
+        grid-template-columns: repeat(4, 1fr);
+      }
+  }
+
+  .calendar-card {
+    margin: 16px;
+    //grid-area: 1 / 3 / NaN / NaN;
+  }
+
+  .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+  }
+
+}

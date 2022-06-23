@@ -1,0 +1,13 @@
+package com.nathan_html.calendar_git;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CalendarGifApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CalendarGifApplication.class, args);
+    }
+
+}

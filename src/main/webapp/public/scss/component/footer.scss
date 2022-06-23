@@ -1,0 +1,35 @@
+body {
+  // for footer
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+
+  // variables
+  --footer-height: 64px;
+  --footer-margin: 16vw;
+
+  // footer always at the bottom of the page
+  margin-top: auto;
+
+  // content
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--footer-height);
+  width: 100%;
+
+  // background
+  background-color: #f6f6f6;
+
+  // padding left and right
+  *:first-child {
+    padding-left: var(--footer-margin);
+  }
+  *:last-child {
+    padding-right: var(--footer-margin);
+  }
+
+}

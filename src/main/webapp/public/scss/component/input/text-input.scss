@@ -1,0 +1,46 @@
+form {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 300px;
+  }
+
+  label {
+      bottom: -14px;
+      left: 12px;
+      position: relative;
+      background-color: white;
+      padding: 0 6px 0 6px;
+      font-size: 16px;
+      transition: 0.2s;
+      pointer-events: none;
+  }
+
+  input, select {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 42px;
+    width: 100%;
+    //width: -webkit-fill-available;
+    box-sizing: border-box;
+  }
+
+  div:focus ~ label {
+      bottom: 55px;
+  }
+
+  div:valid ~ label {
+      bottom: 55px;
+  }
+
+  .info {
+    max-width: 300px;
+  }
+
+}
