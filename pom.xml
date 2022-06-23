@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nathan_html</groupId>
-    <artifactId>Calendar_git</artifactId>
+    <artifactId>Calendar_gif</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Calendar_git</name>
-    <description>Calendar_git</description>
+    <name>Calendar_gif</name>
+    <description>Calendar_gif</description>
     <properties>
         <java.version>17</java.version>
     </properties>
