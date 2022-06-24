@@ -10,6 +10,7 @@ import lombok.ToString;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import java.time.LocalDate;
@@ -20,6 +21,7 @@ import java.util.Random;
 @Setter
 @ToString
 @NoArgsConstructor
+@Table(name = "days")
 public class Day {
 
     private static Random random = new Random();
