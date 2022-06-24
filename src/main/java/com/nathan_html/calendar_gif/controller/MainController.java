@@ -1,12 +1,11 @@
-package com.nathan_html.calendar_git.controller;
+package com.nathan_html.calendar_gif.controller;
 
-import com.nathan_html.calendar_git.model.Day;
-import com.nathan_html.calendar_git.model.Gif.GifRemote;
-import com.nathan_html.calendar_git.model.User.User;
-import com.nathan_html.calendar_git.service.DayService;
-import com.nathan_html.calendar_git.service.EmotionService;
-import com.nathan_html.calendar_git.service.ThemeService;
-import com.nathan_html.calendar_git.service.UserService;
+import com.nathan_html.calendar_gif.model.Gif.GifRemote;
+import com.nathan_html.calendar_gif.model.User.User;
+import com.nathan_html.calendar_gif.service.DayService;
+import com.nathan_html.calendar_gif.service.EmotionService;
+import com.nathan_html.calendar_gif.service.ThemeService;
+import com.nathan_html.calendar_gif.service.UserService;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.format.annotation.DateTimeFormat;

@@ -1,7 +1,7 @@
-package com.nathan_html.calendar_git.service;
+package com.nathan_html.calendar_gif.service;
 
-import com.nathan_html.calendar_git.dao.ThemeDAO;
-import com.nathan_html.calendar_git.model.Theme;
+import com.nathan_html.calendar_gif.dao.ThemeDAO;
+import com.nathan_html.calendar_gif.model.Theme;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

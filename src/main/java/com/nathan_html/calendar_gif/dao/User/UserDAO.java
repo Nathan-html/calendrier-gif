@@ -1,6 +1,6 @@
-package com.nathan_html.calendar_git.dao.User;
+package com.nathan_html.calendar_gif.dao.User;
 
-import com.nathan_html.calendar_git.model.User.User;
+import com.nathan_html.calendar_gif.model.User.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserDAO extends JpaRepository<User, Long> {

@@ -1,4 +1,4 @@
-package com.nathan_html.calendar_git.model;
+package com.nathan_html.calendar_gif.model;
 
 import lombok.*;
 

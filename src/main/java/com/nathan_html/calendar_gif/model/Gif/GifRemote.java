@@ -1,4 +1,4 @@
-package com.nathan_html.calendar_git.model.Gif;
+package com.nathan_html.calendar_gif.model.Gif;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

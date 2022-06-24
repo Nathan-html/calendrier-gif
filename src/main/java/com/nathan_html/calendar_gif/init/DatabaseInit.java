@@ -1,13 +1,13 @@
-package com.nathan_html.calendar_git.init;
+package com.nathan_html.calendar_gif.init;
 
-import com.nathan_html.calendar_git.dao.DayDAO;
-import com.nathan_html.calendar_git.dao.EmotionDAO;
-import com.nathan_html.calendar_git.dao.ThemeDAO;
-import com.nathan_html.calendar_git.dao.User.UserDAO;
-import com.nathan_html.calendar_git.model.Day;
-import com.nathan_html.calendar_git.model.Emotion;
-import com.nathan_html.calendar_git.model.Theme;
-import com.nathan_html.calendar_git.model.User.User;
+import com.nathan_html.calendar_gif.dao.DayDAO;
+import com.nathan_html.calendar_gif.dao.EmotionDAO;
+import com.nathan_html.calendar_gif.dao.ThemeDAO;
+import com.nathan_html.calendar_gif.dao.User.UserDAO;
+import com.nathan_html.calendar_gif.model.Day;
+import com.nathan_html.calendar_gif.model.Emotion;
+import com.nathan_html.calendar_gif.model.Theme;
+import com.nathan_html.calendar_gif.model.User.User;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

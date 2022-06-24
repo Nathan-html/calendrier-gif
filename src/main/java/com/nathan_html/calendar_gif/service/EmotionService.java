@@ -1,7 +1,7 @@
-package com.nathan_html.calendar_git.service;
+package com.nathan_html.calendar_gif.service;
 
-import com.nathan_html.calendar_git.dao.EmotionDAO;
-import com.nathan_html.calendar_git.model.Emotion;
+import com.nathan_html.calendar_gif.dao.EmotionDAO;
+import com.nathan_html.calendar_gif.model.Emotion;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

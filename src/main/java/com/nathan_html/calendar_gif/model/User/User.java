@@ -1,9 +1,9 @@
-package com.nathan_html.calendar_git.model.User;
+package com.nathan_html.calendar_gif.model.User;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.nathan_html.calendar_git.model.Gif.Gif;
-import com.nathan_html.calendar_git.model.Reaction;
-import com.nathan_html.calendar_git.model.Theme;
+import com.nathan_html.calendar_gif.model.Gif.Gif;
+import com.nathan_html.calendar_gif.model.Reaction;
+import com.nathan_html.calendar_gif.model.Theme;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

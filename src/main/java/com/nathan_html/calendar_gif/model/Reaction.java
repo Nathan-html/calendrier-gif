@@ -1,7 +1,7 @@
-package com.nathan_html.calendar_git.model;
+package com.nathan_html.calendar_gif.model;
 
-import com.nathan_html.calendar_git.model.Gif.Gif;
-import com.nathan_html.calendar_git.model.User.User;
+import com.nathan_html.calendar_gif.model.Gif.Gif;
+import com.nathan_html.calendar_gif.model.User.User;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

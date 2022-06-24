@@ -1,7 +1,7 @@
-package com.nathan_html.calendar_git.model;
+package com.nathan_html.calendar_gif.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.nathan_html.calendar_git.model.Gif.Gif;
+import com.nathan_html.calendar_gif.model.Gif.Gif;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
