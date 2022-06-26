@@ -76,7 +76,7 @@ public class DatabaseInit implements CommandLineRunner {
             Calendar calendar = Calendar.getInstance();
             int count = 0;
 
-            while (map.size() != 10000) {
+            while (map.size() != 10) {
                 count++;
                 User user = new User();
                 user.setFirstname(faker.name().lastName());
